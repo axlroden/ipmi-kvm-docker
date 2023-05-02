@@ -42,4 +42,4 @@ Custom resolutions can be specified with the docker environment variable RES, an
 
 In case you need to mount floppy/iso images to the machine you can mount a volume to the container.
 
-    $ docker run -p 8080:8080 -v /your/local/folder:/root/images solarkennedy/ipmi-kvm-docker
+    $ docker run -p 8080:8080 -v /your/local/folder:/root/images axlroden/ipmi-kvm-docker
