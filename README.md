@@ -1,7 +1,7 @@
 ## ipmi-kvm-docker
 
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/solarkennedy/ipmi-kvm-docker/latest)
-![Docker Pulls](https://img.shields.io/docker/pulls/solarkennedy/ipmi-kvm-docker)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/axlrod/ipmi-kvm-docker/latest)
+![Docker Pulls](https://img.shields.io/docker/pulls/axlrod/ipmi-kvm-docker)
 
 Ever wanted to access and IPMI KVM console, only to find that you don't
 have network access or the right version of java or a compatible
@@ -36,10 +36,10 @@ on the Docker Hub.
 By default, the VNC session will run with a resolution of 1024x768 (with 24-bit color depth).
 Custom resolutions can be specified with the docker environment variable RES, and must include color depth.
 
-    $ docker run -p 8080:8080 -e RES=1600x900x24 axlroden/ipmi-kvm-docker
+    $ docker run -p 8080:8080 -e RES=1600x900x24 axlrod/ipmi-kvm-docker
 
 ### Mount volume
 
 In case you need to mount floppy/iso images to the machine you can mount a volume to the container.
 
-    $ docker run -p 8080:8080 -v /your/local/folder:/root/images axlroden/ipmi-kvm-docker
+    $ docker run -p 8080:8080 -v /your/local/folder:/root/images axlrod/ipmi-kvm-docker
