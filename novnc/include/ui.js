@@ -651,7 +651,7 @@ var UI;
 
         // Display the desktop name in the document title
         updateDocumentTitle: function(rfb, name) {
-            document.title = name + " - noVNC";
+            document.title = "IPMI - KVM";
         },
 
         clipReceive: function(rfb, text) {
